@@ -10,11 +10,20 @@
   margin: auto;
   /* background-color: white; */
   border: 15px solid  #D7F6F8;
+  /* border: 15px solid grey; */
   background-image: url("./banner.jpg");
   background-repeat: no-repeat;
-  background-size: 1440px 780px;
+  background-size: 1440px 500px;
 }
 
+/* .Color-block {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%; 
+  background-color: #D7F6F8;
+} */
 
 .App-logo {
   height: 40vmin;

@@ -10,6 +10,7 @@ font-family: 'Josefin Sans', sans-serif; */
 /* font-family: 'Poiret One', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 /* font-family: 'Vidaloka', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 
 
 .header-wrapper {
@@ -29,16 +30,17 @@ font-family: 'Josefin Sans', sans-serif; */
     /* font-family: 'Quicksand', sans-serif; */
     /* font-family: 'Cinzel', serif; */
     /* font-family: 'Poiret One', cursive; */
-    font-family: 'Vidaloka', serif;
+    /* font-family: 'Vidaloka', serif; */
+    font-family: 'Syne', sans-serif;
     font-size: x-large;
     width: 100%;
     order: 1;
 }
 
 .header-sub {
-    font-family: 'Vidaloka', serif;
+    font-family: 'Syne', sans-serif;
     font-size: x-large;
-    color: grey;
+    color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     width: 100%;
     order: 1;

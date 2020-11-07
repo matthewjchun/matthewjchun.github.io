@@ -5,8 +5,8 @@
 .total-wrapper {
     display: flex;
     justify-content: center;
-    width: 100%;
-    background-color:  #D7F6F8;
+    width: 100%; 
+    background-color: #D7F6F8;
 }
 
 .about-wrapper{
@@ -46,7 +46,7 @@
 }
 
 .text-wrapper {
-    background-color: #D7F6F8;
+    /* background-color: #D7F6F8; */
     /* border-radius: 25px; */
     width: 78%;
     text-align: right;
@@ -57,3 +57,10 @@
     /* border: .5px solid black; */
 }
 
+.text-title {
+    text-align: left;
+    font-size: x-large;
+    font-family: 'Syne', sans-serif;
+    padding: 5px;
+    padding-left: 0px;
+}

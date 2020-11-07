@@ -18,6 +18,7 @@ function About() {
                 </div>
                <div className='text-wrapper'>
                     <p>
+                    <header className='text-title'><b>Meet Matthew Chun!</b></header>
                     Matthew Chun is currently a third year undergraduate student at Stony Brook University, 
                     pursuing his Bachelor’s Degree in Computer Science. Apart from being in one of the University’s 
                     honors programs and being one of the recipients for the Presidential Scholarship, he is also proud 
