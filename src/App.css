@@ -1,9 +1,18 @@
 .App {
   text-align: center;
-  /* height: 100vh; Magic here */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  height: 100vh;
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+    width: 75%;
+    background-color: green; 
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px){
+    width: 50%;
+    background-color: pink;
+  }
 }
 
 .App-logo {

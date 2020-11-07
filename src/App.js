@@ -14,6 +14,7 @@ class App extends Component{
 
 
   render() {
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     const slider = this.state.content ? ( <About />) : (<Education />);
 
     return ( 

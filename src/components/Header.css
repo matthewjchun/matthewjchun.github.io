@@ -4,20 +4,16 @@
     box-sizing: border-box;
     width: 50%;
     margin: auto;
-    /* margin-left: 10%;
-    margin-right: 10%; */
     margin-top: 5%;
-    border: 5px solid black;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    border: 5px solid black;
 }
 
 .header-text {
     font-family: 'Playfair Display', serif;
-    /* text-align: right; */
     width: 100%;
     order: 1;
 }
@@ -25,7 +21,5 @@
 .header-pic {
     height: 35vmin;
     padding: 2px;
-    /* align-self: left; */
-    float: none;
     order: 0;
 }
