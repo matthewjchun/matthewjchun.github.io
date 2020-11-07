@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+.about-wrapper{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+    /* border: 1px solid black; */
+
+}
+
+.links-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 80%
+    /* border: 1px solid black; */
+}
+
+.gmail-link {
+    height: 10vmin;
+    padding: 10px;
+}
+
+.linkedin-link {
+    height: 9vmin;
+    padding: 10px;
+}
+
+
+.cv {
+    height: 10vmin;
+    padding: 10px;
+}
+
+.text-wrapper {
+    width: 78%;
+    text-align: left;
+    font-size: 18;
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
+    /* border: .5px solid black; */
+}
+

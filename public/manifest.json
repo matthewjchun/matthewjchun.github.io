@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "portfolio-app",
+  "homepage": "https://matthewjchun.github.io/me",
   "icons": [
     {
       "src": "favicon.ico",
