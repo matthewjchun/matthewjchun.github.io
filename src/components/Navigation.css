@@ -5,12 +5,14 @@
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    padding: 10px;
+    justify-content: space-evenly;
     align-items: center;
+    /* border: .5px solid black; */
 }
 
 .navigation-border {
-    height: 20vmin;
+    height: 13vmin;
     align-self: flex-start;
     float: none;
     order: 0;

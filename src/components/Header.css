@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); /*font-family: 'Quicksand', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap'); 
+/* font-family: 'Nunito', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+font-family: 'Josefin Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/* font-family: 'Cinzel', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/* font-family: 'Poiret One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+/* font-family: 'Vidaloka', serif; */
+
 
 .header-wrapper {
     box-sizing: border-box;
@@ -9,11 +21,25 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
 
 .header-text {
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Quicksand', sans-serif; */
+    /* font-family: 'Cinzel', serif; */
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Vidaloka', serif;
+    font-size: x-large;
+    width: 100%;
+    order: 1;
+}
+
+.header-sub {
+    font-family: 'Vidaloka', serif;
+    font-size: x-large;
+    color: grey;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     width: 100%;
     order: 1;
 }

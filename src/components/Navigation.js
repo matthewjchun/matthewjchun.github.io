@@ -8,8 +8,11 @@ import styled from 'styled-components';
 
 
 const Button = styled.button`
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    min-width: 200px;
+    min-height: 50px;
+    border: 1px solid black;
     padding: 5px 15px;
     border-radius: 5px;
     outline: 0;
@@ -19,28 +22,29 @@ const Button = styled.button`
     transition: ease color 200ms;
     &:hover{
         color: lightgray;
+        background-color:  #D7F6F8;
     }
 `
 
 const Navigation = ({about, info}) => {
     return(
         <div className='navigation-wrapper'>
-            <div className='navigation-border'>
+            {/* <div className='navigation-border'>
                <img className='navigation-border' src={process.env.PUBLIC_URL + '/pics/border.png'}/>
-            </div>
+            </div> */}
             <div className='navigation-buttons'>
                 <Button onClick={() => info(true)}>
-                    About
+                    <b>About</b>
                 </Button>
             </div>
             <div className='navigation-buttons'>
                 <Button onClick={() => info(false)}>
-                    Education
+                    <b>Education</b>
                 </Button>
             </div>
-            <div className='navigation-border'>
+            {/* <div className='navigation-border'>
                <img className='navigation-border' src={process.env.PUBLIC_URL + '/pics/border2.png'}/>
-            </div>
+            </div> */}
         </div>
     );
 }

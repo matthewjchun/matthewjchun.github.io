@@ -3,16 +3,17 @@ import './Education.css';
 
 function Education() {
     return (
+        <div className='total-wrapper'>
         <div className='education-wrapper'>
             <div className='links-wrapper'>
                 <a href='mailto:matthewchun.18@gmail.com'>
-                    <img src={process.env.PUBLIC_URL + '/icons/email.png'} className='gmail-link'/>
+                    <img src={process.env.PUBLIC_URL + '/icons/email.svg'} className='gmail-link'/>
                 </a>
                 <a href='https://www.linkedin.com/in/matthew-chun-9081401a2/' target='_blank'>
                     <img src={process.env.PUBLIC_URL + '/icons/linkedin.svg'} className='linkedin-link'/>
                 </a>
                 <a href={process.env.PUBLIC_URL + '/doc/Resumev3.pdf'} target='_blank'>
-                    <img src={process.env.PUBLIC_URL + '/icons/resume.png'} className='cv'/>
+                    <img src={process.env.PUBLIC_URL + '/icons/resume.svg'} className='cv'/>
                 </a>
             </div>
             <div className='text-wrapper'>
@@ -63,6 +64,7 @@ function Education() {
                 </table>
                 </p>
             </div>
+        </div>
         </div>
     )
 }

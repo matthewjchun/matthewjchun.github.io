@@ -18,10 +18,12 @@ class App extends Component{
     const slider = this.state.content ? ( <About />) : (<Education />);
 
     return ( 
+      <div className='Wrap'>
       <div className="App">
         <Header />
         <Navigation about={this.state.content} info={(content) => this.setState({content})}/>
         {slider}
+      </div>
       </div>
     );
   }

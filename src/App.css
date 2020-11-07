@@ -1,19 +1,20 @@
+
 .App {
+  /* background-color: black; */
   text-align: center;
-  height: 100vh;
-
-  /* Small Devices, Tablets */
-  @media only screen and (min-width : 768px) {
-    width: 75%;
-    background-color: green; 
-  }
-
-  /* Medium Devices, Desktops */
-  @media only screen and (min-width : 992px){
-    width: 50%;
-    background-color: pink;
-  }
 }
+
+.Wrap {
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+  /* background-color: white; */
+  border: 15px solid  #D7F6F8;
+  background-image: url("./banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 1440px 780px;
+}
+
 
 .App-logo {
   height: 40vmin;
