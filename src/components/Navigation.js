@@ -12,17 +12,18 @@ const Button = styled.button`
     color: black;
     min-width: 200px;
     min-height: 50px;
-    border: 1px solid black;
+    border: 1px solid #F3F6E1;
     padding: 5px 15px;
-    border-radius: 5px;
+    border-radius: 25px;
     outline: 0;
     margin: 0px 10px;
     box-shadow: 0px 2px 2px lightgray;
     cursor: pointer;
-    transition: ease color 200ms;
+    transition: ease color 500ms;
+    transition: ease background-color 300ms;
     &:hover{
         color: lightgray;
-        background-color:  #D7F6F8;
+        background-color:  #F3F6E1;
     }
 `
 

@@ -9,7 +9,8 @@
   width: 100%;
   margin: auto;
   /* background-color: white; */
-  border: 15px solid  #D7F6F8;
+  /* border: 15px solid  #D7F6F8; */
+  border: 15px solid #F3F6E1;
   /* border: 15px solid grey; */
   background-image: url("./banner.jpg");
   background-repeat: no-repeat;

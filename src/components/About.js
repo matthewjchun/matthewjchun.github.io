@@ -1,5 +1,7 @@
 import React from 'react'
 import './About.css';
+// import styled from 'styled-components';
+
 
 function About() {
     return (
@@ -7,13 +9,13 @@ function About() {
             <div className='about-wrapper'>
                 <div className='links-wrapper'>
                     <a href='mailto:matthewchun.18@gmail.com'>
-                        <img src={process.env.PUBLIC_URL + '/icons/email.svg'} className='gmail-link'/>
+                        <img src={process.env.PUBLIC_URL + '/icons/email.svg'} className='icon-link'/>
                     </a>
                     <a href='https://www.linkedin.com/in/matthew-chun-9081401a2/' target='_blank'>
-                        <img src={process.env.PUBLIC_URL + '/icons/linkedin.svg'} className='linkedin-link'/>
+                        <img src={process.env.PUBLIC_URL + '/icons/linkedin.png'} className='icon-link'/>
                    </a>
                     <a href={process.env.PUBLIC_URL + '/doc/Resumev3.pdf'} target='_blank'>
-                        <img src={process.env.PUBLIC_URL + '/icons/resume.svg'} className='cv'/>
+                        <img src={process.env.PUBLIC_URL + '/icons/resume.svg'} className='icon-link'/>
                     </a>
                 </div>
                <div className='text-wrapper'>

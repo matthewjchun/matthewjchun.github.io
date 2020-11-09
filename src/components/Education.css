@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color:  #D7F6F8;
+    background-color:  #F3F6E1;
 }
 
 .education-wrapper{
@@ -30,21 +30,15 @@
     /* border: 1px solid black; */
 }
 
-.gmail-link {
+.icon-link{
     height: 10vmin;
     padding: 10px;
+    transition: all .2s ease-in-out;
+}
+.icon-link:hover {
+    transform: scale(1.2);
 }
 
-.linkedin-link {
-    height: 9vmin;
-    padding: 10px;
-}
-
-
-.cv {
-    height: 10vmin;
-    padding: 10px;
-}
 
 .text-wrapper {
     width: 78%;
