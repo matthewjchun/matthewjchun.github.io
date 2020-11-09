@@ -13,7 +13,10 @@ function About() {
                     </a>
                     <a href='https://www.linkedin.com/in/matthew-chun-9081401a2/' target='_blank'>
                         <img src={process.env.PUBLIC_URL + '/icons/linkedin.png'} className='icon-link'/>
-                   </a>
+                    </a>
+                    <a href='https://github.com/matthewjchun' target='_blank'>
+                        <img src={process.env.PUBLIC_URL + '/icons/github.png'} className='icon-link'/>
+                    </a>
                     <a href={process.env.PUBLIC_URL + '/doc/Resumev3.pdf'} target='_blank'>
                         <img src={process.env.PUBLIC_URL + '/icons/resume.svg'} className='icon-link'/>
                     </a>

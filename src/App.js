@@ -15,18 +15,19 @@ class App extends Component{
 
   render() {
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-    const slider = this.state.content ? ( <About />) : (<Education />);
+    const slider = this.state.content ? ( <About className='About'/>) : (<Education className='Education'/>);
 
     return ( 
-      <div className='Responsive'>
-      <div className='block-wrap'>
+      // <div className='Responsive'>
       <div className="App">
-        <Header />
-        <Navigation about={this.state.content} info={(content) => this.setState({content})}/>
+      <div className='block-wrap'>
+        <Header className='Head' />
+      
+        <Navigation className='Navigation' about={this.state.content} info={(content) => this.setState({content})}/>
+      </div>
         {slider}
       </div>
-      </div>
-      </div>
+      // </div>
     );
   }
 }
