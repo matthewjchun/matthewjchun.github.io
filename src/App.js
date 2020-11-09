@@ -22,10 +22,11 @@ class App extends Component{
       <div className="App">
       <div className='block-wrap'>
         <Header className='Head' />
-      
         <Navigation className='Navigation' about={this.state.content} info={(content) => this.setState({content})}/>
       </div>
+      <div className='text-wrap'>
         {slider}
+      </div>
       </div>
       // </div>
     );
