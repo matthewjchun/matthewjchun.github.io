@@ -1,5 +1,5 @@
 
-body{background-color: #F3F6E1;}
+body{background-color: #E3D8D3;}
 
 .App {
   /* background-color: black; */
@@ -12,12 +12,12 @@ body{background-color: #F3F6E1;}
   height: 100%;
   margin: auto;
   /* background-color: white; */
-  /* border: 15px solid  #D7F6F8; */
-  border: 15px solid #F3F6E1;
-  /* border: 15px solid grey; */
+  border: 15px solid  #E3D8D3;
+  /* border: 15px solid #F3F6E1; */
+  /* border: 15px solid white; */
   background-image: url("./banner.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 180%;
 }
 
 .text-wrap {
