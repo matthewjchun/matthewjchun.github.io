@@ -17,6 +17,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Stony Brook/2020-2021/Fall Semester/CSE 216/hw3" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -27,5 +28,11 @@
       <updated>1604890452060</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1605245274608">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605245274608" />
   </component>
 </project>
